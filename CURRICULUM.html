@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curriculum Vitae Lorena Alibertti</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet" />
+    <script src=" https://use.fontawesome.com/11ca8658b1.js "></script>
+    <link rel="stylesheet" href="curiculum.css" type="text/css" />
+  </head>
+  <body>
+    <script src="./curriculum.js"></script>
+    <div class="container" id="container">
+      <div class="button" onclick="openH()"><img src="https://img.icons8.com/dotty/256/menu-rounded.png" alt="" /></div>
+      <div class="section1" id="show">
+        <div class="foto"><img src="./foto lorenita.jpeg" alt="fotoLore" /></div>
+
+        <img class="closebtn" onclick="closeH()" src="https://img.icons8.com/dotty/256/cancel.png" alt="" />
+
+        <div class="nombre">
+          <h1>LORENA ALIBERTTI</h1>
+          <h2>
+            Full Stack Developer<img
+              onclick="openF()"
+              src="https://img.icons8.com/dotty/256/circled-chevron-down.png"
+              alt="desplegable" /><img
+              onclick="closeF()"
+              src="https://img.icons8.com/dotty/256/circled-chevron-up.png"
+              alt="desplegable" />
+          </h2>
+        </div>
+
+        <div class="tecnologias" id="Hiden">
+          <ul>
+            <li><img src="https://img.icons8.com/ios/256/html-5.png" alt="HTML" /> HTML</li>
+            <li><img src="https://img.icons8.com/ios/256/css3.png" alt="CSS" /> CSS</li>
+            <li><img src="https://img.icons8.com/ios/256/javascript.png" alt="js" /> JavaScreept</li>
+            <li><img src="https://img.icons8.com/ios/256/react-native--v1.png" alt="react" /> React</li>
+            <li><img src="https://img.icons8.com/ios-filled/512/redux.png" alt="redux" /> Redux</li>
+            <li><img src="https://img.icons8.com/windows/256/nodejs.png" alt="node" /> Node.js</li>
+            <li><img src="https://img.icons8.com/color/256/express-js.png" alt="express" /> Express</li>
+            <li><img src="https://img.icons8.com/ios/256/postgreesql.png" alt="" /> PostgreSQL</li>
+            <li>
+              <img src="https://static-00.iconduck.com/assets.00/sequelize-icon-443x512-zt3ku70k.png" alt="" />
+              Sequelize
+            </li>
+            <li>
+              <img src="https://www.diacosasesores.cl/wp-content/uploads/2020/08/logo-13-450x416.png" alt="" />
+              Metodologías ágiles de Scrum
+            </li>
+            <li><img src="https://img.icons8.com/ios/256/git.png" alt="git" /> Git Flow</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contacto</h3>
+          <ul class="contacto">
+            <li><i class="fa fa-home" aria-hidden="true"></i> San Isidro, Buenos Aires-Argentina</li>
+            <li><i class="fa fa-envelope-o" aria-hidden="true"></i> aliberti_lorena@yahoo.com.ar</li>
+            <li><i class="fa fa-envelope-o" aria-hidden="true"></i> lorenaalibertti@gmail.com</li>
+            <!-- <li><i class="fa fa-phone" aria-hidden="true"></i> +5411</li> -->
+          </ul>
+        </div>
+      </div>
+      <div class="section2">
+        <p>
+          Soy desarrolladora Full Stack, he trabajado en proyectos PERN, utilizando tecnologías como React, Redux,
+          PostgreSQL, Express, Node.js, HTML, CSS, JavaScript y Sequelize. Además, cuento con habilidades en SCRUM,
+          resolución de problemas y trabajo en equipo. Me considero comprometida, apasionada y proactiva, con capacidad
+          de aprendizaje rápido y habilidades de comunicación claras. Mi enfoque siempre está en los resultados, y poseo
+          excelentes habilidades para trabajar en equipo, con empatía e iniciativa. Soy una persona que sigue procesos y
+          metodologías.
+        </p>
+        <h3 onmouseover="show()" onmouseout="nShow()">Proyectos:</h3>
+        <h4>Full Stack Web Developer - Food App (Dic. 2023)</h4>
+        <ul class="detail">
+          <li>
+            Diseño y desarrollo de una aplicación de recetas con capacidad para buscar, filtrar, ordenar y crear nuevas
+            recetas.
+          </li>
+          <li>
+            Tecnologías utilizadas: UX/UI, filtros y ordenamientos, formulario controlado, Redux/estados, paginado,
+            rutas/controladores, manejo de errores, base de datos, buenas prácticas, testing, deploy y CRUD completo.
+          </li>
+          <li>Front-end: React con Redux para la gestión de estados y CSS puro para la estilización.</li>
+          <li>
+            Back-end: Node.js con Express para el manejo de rutas y controladores. PostgreSQL y Sequelize para la base
+            de datos.
+          </li>
+          <li>
+            Funcionalidades: búsqueda y filtrado de recetas, creación de nuevas recetas y ordenamiento por diferentes
+            atributos.
+          </li>
+          <li>Buenas prácticas: estándares de codificación, documentación, comentarios claros y diseño modular.</li>
+        </ul>
+        <h4>Front End Developer - Clon Airbnb (Feb. 2023)</h4>
+        <ul class="detail">
+          <li>Diseño y desarrollo de una plataforma con funcionalidades similares a las de Airbnb.</li>
+          <li>
+            Tecnologías utilizadas: HTML, CSS, JavaScript, React, Node.js, Express, PostgreSQL, Sequelize, metodologías
+            ágiles de Scrum y Git Flow.
+          </li>
+          <li>
+            Participación en la definición de la arquitectura de la plataforma y en la implementación de características
+            clave como la gestión de usuarios, la búsqueda y reserva de alojamientos, y la integración de pagos.
+          </li>
+        </ul>
+        <h3 onmouseover="show()" onmouseout="nShow()">Experiencia profesional:</h3>
+        <h4>Full Stack Teaching Assistant (Dic. 2022 - Actualidad)</h4>
+        <p>Henry Bootcamp, Buenos Aires, Argentina.</p>
+        <ul class="detail">
+          <li>Coordinación de un grupo de estudiantes para lograr la integración al equipo de estudio.</li>
+          <li>Asistencia en la resolución de ejercicios y promoción de la colaboración grupal (Pair Programming).</li>
+          <li>Proposición de ideas para la mejora de los procesos del Bootcamp.</li>
+          <li>
+            Planificación y organización de actividades para ayudar a estudiantes en el desarrollo de habilidades
+            blandas.
+          </li>
+        </ul>
+
+        <h4>Encargada del área administrativa contable (ene. 2011 - dic. 2019)</h4>
+        <p>Química Vignolo Rodolfo</p>
+        <ul class="detail">
+          <li>
+            Lideré y gestioné el área financiera y contable de la organización como asistente administrativa contable.
+          </li>
+          <li>
+            Proporcioné asesoramiento financiero e inversiones, gestioné cheques y cuentas bancarias, realicé
+            conciliaciones bancarias y preparé informes de flujo de efectivo.
+          </li>
+          <li>
+            En el área contable, me encargué de la facturación electrónica, la gestión de cuentas corrientes y cobranzas
+            de clientes, y el pago a proveedores. Registré comprobantes contables y preparé informes financieros
+            necesarios.
+          </li>
+          <li>Amplié la base de contactos y aumenté la visibilidad de la empresa.</li>
+          <li>
+            Aptitudes en redacción, presentaciones, Microsoft Excel y Office, networking, implementación de procesos
+            ITIL, organización, análisis financiero, banca minorista e inversión, e informes y análisis.
+          </li>
+        </ul>
+
+        <h3 onmouseover="show()" onmouseout="nShow()">Educación profesional:</h3>
+        <h4>Universidad de Buenos Aires</h4>
+        <p>Licenciatura en Sistemas de Información de las organizaciones, Facultad de Ciencias Economicas</p>
+        <p>Marzo 2018 - Actualidad</p>
+
+        <h4>Henry Bootcamp</h4>
+        <p>Full Stack Web Developer, Gestión de proyectos de tecnología de la información</p>
+        <p>Octubre 2022 - Febrero 2023</p>
+        <ul class="detail">
+          <li>Front End / Back End 700 horas de cursado teórico-práctico en 2023</li>
+          <li>
+            JavaScript ✔Es6 ✔Ajax ✔Bundlers ✔ Css ✔ Estructura de Datos ✔Algoritmos ✔NPM ✔React ✔NodeJS ✔PostgreSQL
+            ✔Redux ✔Express ✔Metodología: SCRUM ✔NodeJS ✔ Testing ✔DBMS ✔SQL ✔ORM ✔ Git ✔Github ✔APIs
+          </li>
+        </ul>
+        <h4>
+          UTN - Facultad Regional Haedo Trader en Opciones Financieras y Futuros, Banca y servicios financieros Marzo
+          2022 - Mayo 2022
+        </h4>
+        <h4>Universidad de Buenos Aires Actuario en economía 2003 – 2010</h4>
+        <h4>
+          Instituto Argentino de Mercado de Capitales Operador de Mercado de Capitales, Banca y servicios financieros
+          Marzo 2009 - Diciembre 2009
+        </h4>
+      </div>
+      <footer>
+        <div class="redes">
+          <ul>
+            <li>
+              <a class="linkedin" href="https://www.linkedin.com/in/lorena-alibertti-822852243/"
+                ><i class="fa fa-linkedin" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.github.com/loli178/" class="github"
+                ><i class="fa fa-github" aria-hidden="true"></i
+              ></a>
+            </li>
+
+            <li>
+              <a class="whatsapp" href="https://wa.me/54911"> <i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

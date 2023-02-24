@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+h1,
+h2 {
+  margin: 0;
+}
+.body {
+  margin: 0;
+  background-color: rgba(154, 137, 137, 0.977);
+  color: rgb(64, 40, 40);
+}
+h3 {
+  text-decoration: underline;
+}
+#container {
+  transition: margin-left 1s;
+  padding: 16px;
+}
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  box-sizing: border-box;
+  background-color: rgba(230, 218, 218, 0.977);
+  min-width: 300px;
+  padding: 0;
+}
+.section1 {
+  background-color: rgb(208, 185, 185);
+
+  color: rgb(19, 15, 15);
+  justify-content: space-around;
+  box-shadow: 5px 1px 5px rgb(18, 15, 15);
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  position: fixed;
+  overflow-x: hidden;
+  transition: 1s;
+  padding-top: 10px;
+  border-radius: 25px;
+  margin-bottom: 10px;
+
+  /* padding-left: 20px; */
+}
+.button {
+  cursor: pointer;
+  top: 35px;
+  right: 30px;
+  z-index: 2;
+}
+.foto img {
+  margin: 10px 5px 10px 5px;
+  border: 1px solid rgb(20, 13, 13);
+  width: 170px;
+  object-fit: cover;
+  height: 170px;
+  border-radius: 80px;
+  box-shadow: 5px 1px 5px rgb(18, 15, 15);
+  transition: width 1s, height 1s;
+}
+#foto:hover {
+  width: 180px;
+  height: 180px;
+  border-radius: 80px;
+}
+.nombre {
+  text-shadow: 0 0 3px #ac4949, 0 0 5px #040405;
+  color: rgb(220, 212, 212);
+  font-size: 13px;
+  line-height: 2;
+  transition: 2s;
+}
+
+.nombre:hover {
+  color: rgb(3, 3, 3);
+}
+
+img,
+button {
+  width: 30px;
+  height: 30px;
+}
+#iconos {
+  padding: 0 0 0 0;
+  text-decoration: none;
+}
+.redes ul li a {
+  color: rgb(213, 200, 201);
+  display: block;
+  padding: 0 0 0 0;
+  font-size: 45px;
+  transition: 1s;
+  margin-top: 15px;
+  text-decoration: none;
+}
+.redes ul li a:hover {
+  transform: translateY(-5px) scale(1.15);
+}
+@media only screen and (max-width: 310px) {
+  .section1 {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 300px;
+    position: inherit;
+    overflow-x: inherit;
+  }
+  .button,
+  .closebtn {
+    visibility: hidden;
+  }
+}
+
+.section2 {
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.detail {
+  display: none;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+}
+.redes ul {
+  display: flex;
+  color: rgb(213, 200, 201);
+
+  padding: 0 0 0 0;
+  font-size: 45px;
+  transition: 1s;
+  margin: 15px;
+  justify-content: space-between;
+}
